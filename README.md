@@ -133,6 +133,7 @@ SELECT column_name, AGGREGATE_FUNCTION(column_name)
 FROM table_name
 GROUP BY column_name;
 ```
+### 🧪 উদাহরণ
 ```sql
 SELECT class, AVG(marks) AS avg_marks
 FROM students
